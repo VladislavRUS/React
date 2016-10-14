@@ -17,7 +17,7 @@ var my_news = [
 ];
 
 var Article = React.createClass({
-    
+
     propTypes: {
         info: React.PropTypes.shape({
             author: React.PropTypes.string.isRequired,
